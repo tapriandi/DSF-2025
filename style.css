@@ -2,7 +2,48 @@
 
 * {
     font-family: "Poppins", serif;
-    font-weight: 400px;
+    font-weight: 400;
     margin: 0;
     padding: 0;
+}
+
+
+/* header */
+header {
+    height: 80px;
+    padding: 14px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 40px;
+}
+
+header .menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+header .menu a {
+    width: fit-content;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/* banner */
+.banner-section {
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+
+}
+.banner-section img {
+    width: 100%;
+}
+h1 {
+    font-size: 96px;
+    font-weight: 900;
 }

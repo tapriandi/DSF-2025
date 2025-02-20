@@ -7,6 +7,13 @@
     padding: 0;
 }
 
+:root {
+    --gold: #E6C744;
+    --gray: #C2C8DA;
+    --white: #fff;
+    --black: #000;
+}
+
 
 /* header */
 header {
@@ -46,4 +53,24 @@ header .menu a {
 h1 {
     font-size: 96px;
     font-weight: 900;
+}
+
+
+
+
+/* ----- day 4 ----- */
+h1 {
+    color: teal;
+}
+
+
+
+/* ----- brand ----- */
+.brand {
+    display: flex;
+    height: 186px;
+    padding: 0 8%;
+    background-color: var(--gold);
+    align-items: center;
+    justify-content: space-between;
 }
